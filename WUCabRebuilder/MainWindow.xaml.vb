@@ -85,6 +85,16 @@ Class MainWindow
 
     Private Sub btnStart_Click(sender As Object, e As RoutedEventArgs) Handles btnStart.Click
         LockUI()
+        If txtInputDir.Text.Trim = "" Then
+            MessageBox.Show("CAB 输入路径不能为空。", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            UnlockUI()
+            Exit Sub
+        End If
+        If txtOutputDir.Text.Trim = "" Then
+            MessageBox.Show("输出路径不能为空。", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            UnlockUI()
+            Exit Sub
+        End If
         If Not File.Exists(InputDirectory & "update.mum") Then
             MessageBox.Show("目录结构重建所必须的文件""update.mum""不存在，请检查您选择的目录。", "关键文件丢失", MessageBoxButtons.OK, MessageBoxIcon.Error)
             UnlockUI()
