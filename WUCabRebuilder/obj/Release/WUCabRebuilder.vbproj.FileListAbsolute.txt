@@ -1,0 +1,14 @@
+D:\WUCabRebuilder\WUCabRebuilder\bin\Release\WUCabRebuilder.exe.config
+D:\WUCabRebuilder\WUCabRebuilder\bin\Release\WUCabRebuilder.exe
+D:\WUCabRebuilder\WUCabRebuilder\bin\Release\WUCabRebuilder.pdb
+D:\WUCabRebuilder\WUCabRebuilder\bin\Release\WUCabRebuilder.xml
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\MainWindow.baml
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\MainWindow.g.vb
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\Application.g.vb
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\WUCabRebuilder_MarkupCompile.cache
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\WUCabRebuilder.g.resources
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\WUCabRebuilder.Resources.resources
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\WUCabRebuilder.vbproj.GenerateResource.Cache
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\WUCabRebuilder.exe
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\WUCabRebuilder.xml
+D:\WUCabRebuilder\WUCabRebuilder\obj\Release\WUCabRebuilder.pdb

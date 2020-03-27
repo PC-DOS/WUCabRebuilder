@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WUCabRebuilder
+</name>
+</assembly>
+<members>
+<member name="M:WUCabRebuilder.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WUCabRebuilder.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:WUCabRebuilder.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:WUCabRebuilder.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:WUCabRebuilder.Application">
+	<summary>
+Application
+</summary>
+</member><member name="P:WUCabRebuilder.My.MyWpfExtension.Application">
+	<summary>
+ 傳回執行中應用程式的應用程式物件
+ </summary>
+</member><member name="P:WUCabRebuilder.My.MyWpfExtension.Computer">
+	<summary>
+ 傳回主機電腦的相關資訊。
+ </summary>
+</member><member name="P:WUCabRebuilder.My.MyWpfExtension.User">
+	<summary>
+ 傳回目前使用者的資訊。如果您希望用目前的 Windows 使用者認證執行此應用程式，
+ 請呼叫 My.User.InitializeWithWindowsUser()。
+ </summary>
+</member><member name="P:WUCabRebuilder.My.MyWpfExtension.Log">
+	<summary>
+ 傳回應用程式記錄檔。接聽程式可以使用應用程式的組態檔來設定。
+ </summary>
+</member><member name="P:WUCabRebuilder.My.MyWpfExtension.Windows">
+	<summary>
+ 傳回此專案中定義的 Windows 集合。
+ </summary>
+</member><member name="T:WUCabRebuilder.My.MyWpfExtension">
+	<summary>
+ 用來定義 WPF 的 My 命名空間中可用屬性的模組
+ </summary>
+	<remarks></remarks>
+</member><member name="P:WUCabRebuilder.My.Resources.Resources.ResourceManager">
+	<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member><member name="P:WUCabRebuilder.My.Resources.Resources.Culture">
+	<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強類型資源類別的資源查閱。
+</summary>
+</member><member name="T:WUCabRebuilder.My.Resources.Resources">
+	<summary>
+  用於查詢當地語系化字串等的強類型資源類別。
+</summary>
+</member>
+</members>
+</doc>
