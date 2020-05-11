@@ -165,7 +165,7 @@ Class MainWindow
                     .Name = FileElement.GetAttribute("name").ToString
                     .CabPath = FileElement.GetAttribute("cabpath").ToString
                 End With
-                If Not TempFileInfo.Name.StartsWith("$(runtime.system32)\") And Not TempFileInfo.Name.StartsWith("$(runtime.bootdrive)\") Then
+                If Not TempFileInfo.Name.StartsWith("$(runtime.system32)\") And Not TempFileInfo.Name.StartsWith("$(runtime.bootdrive)\") And Not TempFileInfo.Name.StartsWith("$(runtime.drivers)\") Then
                     AddMessage("已忽略一个文件节点，因为它没有描述文件复制信息。")
                     nIgnored += 1
                     prgProgress.Value += 1
@@ -178,6 +178,9 @@ Class MainWindow
                     End If
                     If .Name.StartsWith("$(runtime.bootdrive)\") Then
                         .Name = .Name.Replace("$(runtime.bootdrive)\", OutputDiectory)
+                    End If
+                    If .Name.StartsWith("$(runtime.drivers)\") Then
+                        .Name = .Name.Replace("$(runtime.drivers)\", OutputDiectory & "Windows\System32\Drivers\")
                     End If
                     .CabPath = InputDirectory & .CabPath
                 End With
